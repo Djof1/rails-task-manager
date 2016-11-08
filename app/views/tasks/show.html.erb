@@ -1,0 +1,7 @@
+<h1>Your Task</h1>
+
+<h2><%= @task.description %></h2>
+<p><%= @task.mark %></p>
+<p><%= @task.deadline %></p>
+<%= link_to 'Edit', edit_task_path %>
+<%= link_to 'Delete', task_path, method: :delete %>
